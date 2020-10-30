@@ -29,6 +29,8 @@
     self.person.name = @"+";
 }
 
+
+
 - (IBAction)modifiedValue:(UIButton *)sender {
     self.person.name = [NSString stringWithFormat:@"%@+", self.person.name];
 }
