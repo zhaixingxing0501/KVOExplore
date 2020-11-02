@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+KVO.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,6 +17,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *nickName;
 
 @property (nonatomic, assign) NSInteger age;
+
+@property (nonatomic, strong) NSMutableArray *dataArray;
+
+// 下载进度 总进度
+@property (nonatomic, assign) NSInteger totalData;
+// 下载进度
+@property (nonatomic, assign) NSInteger writeData;
+@property (nonatomic, strong) NSString *downloadProgress;
 
 @end
 
