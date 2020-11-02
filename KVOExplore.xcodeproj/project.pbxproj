@@ -16,6 +16,7 @@
 		9CBF0938254BF19A00B8735A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF0937254BF19A00B8735A /* main.m */; };
 		9CBF0941254BF1C900B8735A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF0940254BF1C900B8735A /* Person.m */; };
 		9CBF0946254C04E400B8735A /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF0945254C04E400B8735A /* NSObject+KVO.m */; };
+		9CD695BA254FE47D00E436A9 /* NotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD695B9254FE47D00E436A9 /* NotificationCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		9CBF0940254BF1C900B8735A /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		9CBF0944254C04E400B8735A /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
 		9CBF0945254C04E400B8735A /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		9CD695B8254FE47D00E436A9 /* NotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationCenter.h; sourceTree = "<group>"; };
+		9CD695B9254FE47D00E436A9 /* NotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				9CBF0929254BF19700B8735A /* SceneDelegate.m */,
 				9CBF092B254BF19700B8735A /* ViewController.h */,
 				9CBF092C254BF19700B8735A /* ViewController.m */,
+				9CD695B8254FE47D00E436A9 /* NotificationCenter.h */,
+				9CD695B9254FE47D00E436A9 /* NotificationCenter.m */,
 				9CBF093F254BF1C900B8735A /* Person.h */,
 				9CBF0940254BF1C900B8735A /* Person.m */,
 				9CBF0944254C04E400B8735A /* NSObject+KVO.h */,
@@ -159,6 +164,7 @@
 				9CBF0927254BF19700B8735A /* AppDelegate.m in Sources */,
 				9CBF0946254C04E400B8735A /* NSObject+KVO.m in Sources */,
 				9CBF0941254BF1C900B8735A /* Person.m in Sources */,
+				9CD695BA254FE47D00E436A9 /* NotificationCenter.m in Sources */,
 				9CBF0938254BF19A00B8735A /* main.m in Sources */,
 				9CBF092A254BF19700B8735A /* SceneDelegate.m in Sources */,
 			);
